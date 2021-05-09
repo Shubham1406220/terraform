@@ -4,7 +4,7 @@ provider "aws" {
   access_key = "AKIAQQKMOHRB4GCAEIES"
  }
 resource "aws_instance" "testing" {
-  ami = "ami-010aff33ed599120"
+  ami = "ami-010aff33ed5991201"
   instance_type = "t2.micro"
   tags = {
        name = "Testing"
